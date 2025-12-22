@@ -1,0 +1,243 @@
+/* This is shared font style*/
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/*shared styles*/
+.text_primary{
+    color: #FD6E0A;
+    
+}
+.btn_primary{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 18px 35px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-2{
+    background-color:white;
+    color: #FD6E0A;
+    padding: 18px 35px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    
+}
+.bannar_content button{
+    margin-right: 30px;
+}
+.dark-02{
+    color: #474747;
+}
+.dark-01{
+    color: #181818;
+}
+.dark-03{
+    color: #757575;
+}
+.secondary_bg{
+    background-color: #FFF8F3;
+}
+main{
+    max-width: 1140px;
+    /* text-align: center; */
+    /* border-radius: 10px; */
+    margin: 0 auto;
+    /* margin-top: 130px; */
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.section_title, .section_description{
+    text-align: center;
+}
+
+/*nav styles*/
+.nav_title{
+    font-weight: 800;
+    font-size: 45px;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+}
+
+/*bannar styles*/
+.bannar_greetings{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.bannar_title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.bannar_description{
+    font-size: 18px;
+}
+.bannar{
+    display: flex;
+    margin-right: 38px;
+    margin-left: 230px;
+    justify-content: space-between;
+}
+/*header*/
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat; 
+    background-position: top left, bottom right;
+}
+.bannar_content{
+    max-width: 580px;
+}
+.bannar_profile_pic{
+    width: 580px;
+}
+
+/* main styles */
+.about_items{
+    display: flex;
+    justify-content: space-around;
+}
+.section_title{
+    font-weight: bold;
+    font-size: 35px;
+}
+.about_description{
+    font-weight: 600;
+    font-size: 18px;
+}
+.about{
+    padding: 130px 150px;
+}
+.bg_color{
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+/* Skills Section Styles */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.skill-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.skill-description{
+    font-size: 16px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    gap: 30px;
+}
+/* 
+experience section styles */
+.experience-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 113px;
+}
+
+.education-head-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.education-title{
+    font-weight: bold;
+    font-size: 25;
+}
+.education-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+}
+.education-description{
+    font-size: 16px;
+}
+
+.educations hr{
+    color: #D1D1D1;
+}
+.cv-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer styles */
+
+footer{
+    display: flex;
+   padding: 130px 230px;
+   gap: 117px;
+    
+    
+}
+.footer-column-1{
+    width: 50%;
+}
+.footer-column-2{
+    width: 50%;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.footer-description{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+form input[type="text"], form input[type="email"], form textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    color: #757575;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    padding: 18px 30px;
+    
+}
+
+
+form input[type="text"], form input[type="email"]{
+    height: 50px;
+}
+
+.footer-icon img{
+    margin-right: 18px;
+}
